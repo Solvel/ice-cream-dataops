@@ -26,6 +26,8 @@ variables:
         icapi_trigger_client_secret: ${ICAPI_EXTRACTORS_CLIENT_SECRET}
         icapi_extractors_client_id: ${ICAPI_EXTRACTORS_CLIENT_ID}
         icapi_extractors_client_secret: ${ICAPI_EXTRACTORS_CLIENT_SECRET}
+        asset_schedule_hourly: ${ASSET_SCHEDULE_HOURLY}
+        pause_asset_transformation: ${PAUSE_ASSET_TRANSFORMATION}
 
       use_cases:
         oee:
@@ -34,3 +36,4 @@ variables:
           oee_space_name: oee_ts_space
           data_pipeline_oee_client_id: ${DATA_PIPELINE_OEE_CLIENT_ID}
           data_pipeline_oee_client_secret: ${DATA_PIPELINE_OEE_CLIENT_SECRET}
+          
