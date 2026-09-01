@@ -1,3 +1,3 @@
 externalId: create_asset_hierarchy
-interval: {{ asset_schedule_hourly }}
-isPaused: {{ pause_asset_transformation }}
+interval: '49 0 * * *'
+isPaused: false
